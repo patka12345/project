@@ -27,20 +27,6 @@ and column *wartosc parametru* in rows:
 3. Run *symulator.py*
 4. Results are visible in *wynik_al1.xlsx* and *wynik_al2.xlsx*.
 
-### How to read results
-
-Results are stored in *wynik_al1.xlsx* for algorithm 1 and in *wynik_al2.xlsx* for algorithm 2. Simulator shows results for pairs of extreme values.
-Sheets are named *wynikLP*, *wynikLL*, *wynikPL*, *wynikPP*, *wynikP*, *wynikL*, where L means left extreme value (minimum) and P right extreme value (maximum).
-First L or P is assigned to number of jet bridges, second to number of flights. Single L or P means that number of jet bridges or flights is set as single value, so simulation is made only for one pair of extremes.  
-
-Examples:
-- *wynikLP* shows result for minimum number of jet brigdes and maximum number of flights
-- *wynikL* shows 1) result for minimum number of jet brigdes with one set number of flights or 2) result for minimum number of flights with one set number of jet brigdes
-
-Additionaly, there are 2 statistics printed in console:
-- the ratio of free time slots to all available during the day
-- the ratio of planes at apron to all planes during the day
-
 
 ### Mode 2
 Mode 2 allows to simulate allocation depending on flights list provided by user.  
@@ -61,3 +47,18 @@ and column *wartosc parametru* in rows:
 
 3. Run *symulator.py*
 4. Results are visible in *wynik_al1.xlsx* and *wynik_al2.xlsx*.
+
+### How to read results
+
+Results are stored in *wynik_al1.xlsx* for algorithm 1 and in *wynik_al2.xlsx* for algorithm 2. Simulator shows results for pairs of extreme values.
+Sheets are named *wynikLP*, *wynikLL*, *wynikPL*, *wynikPP*, *wynikP*, *wynikL*, where L means left extreme value (minimum) and P right extreme value (maximum).
+First L or P is assigned to number of jet bridges, second to number of flights. Single L or P means that number of jet bridges or flights is set as single value, so simulation is made only for one pair of extremes.  
+
+Examples:
+- *wynikLP* shows result for minimum number of jet brigdes and maximum number of flights
+- *wynikL* shows 1) result for minimum number of jet brigdes with one set number of flights or 2) result for minimum number of flights with one set number of jet brigdes
+
+Additionaly, there are 2 statistics printed in console:
+- the ratio of free time slots to all available during the day
+- the ratio of planes at apron to all planes during the day
+
